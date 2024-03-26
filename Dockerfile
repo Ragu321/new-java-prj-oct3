@@ -4,7 +4,7 @@ RUN apt-get install git -y
 RUN git clone https://github.com/Ragu321/new-java-prj-oct3.git
 RUN apt-get install maven -y
 RUN cd /usr/local/tomcat/new-java-prj-oct3  mvn clean install
-expose 8080
+expose 8081
 
 
 
